@@ -8,6 +8,7 @@
 
 <job01> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
+	rdf:ID              "job01";
         jbv:job_title       "Staff Marketing";
         jbv:company         "PT Gilland Ganesha";
         jbv:job_type        "Full-time";
