@@ -1,0 +1,291 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix jbv: <http://www.jobvacancy.fakeurl.com/vocab#>.
+@base <http://www.jobvacancy.fakeurl.com/>.
+
+
+<job_vacancy> rdf:type rdfs:Class.
+
+<job01> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Staff Marketing";
+        jbv:company         "PT Gilland Ganesha";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Balikpapan";
+        jbv:job_desc        "Menawarkan Program Perkuliahan kepada masyarakat";
+        jbv:job_desc        "Melakukan kegiatan promosi dan marketing";
+        jbv:job_desc        "Melakukan kegiatan administrasi perkantoran";
+        jbv:job_desc        "Berorientasi pada target";
+        jbv:job_desc        "Cakap dalam berkomunikasi dan koordinasi, pekerja keras dan berorientasi pada pelayanan yang baik.";
+        jbv:requirement     "Pendidikan Minimal SMU/SMK";
+        jbv:requirement     "Memiliki pengalaman kerja minimal selama 1 tahun";
+        jbv:requirement     "Mampu bekerja mandiri (sendiri) maupun bekerja dalam tim";
+        jbv:requirement     "Jujur, mau bekerja keras, serta memiliki motivasi sangat tinggi untuk meningkatkan pengetahuan dan pengalamannya";
+        jbv:requirement     "Mampu mengoperasikan Microsoft Office";
+        jbv:requirement     "Memiliki kemampuan komunikasi dan persuasif yang baik";
+        jbv:requirement     "Memiliki kendaraan bermotor dan SIM C";
+        jbv:requirement     "Disiplin, jujur, kreatif dan teliti";
+        jbv:requirement     "Menyukai telemarketing";
+        jbv:requirement     "Familiar menggunakan medsos: IG, FB, Tiktok";
+        jbv:requirement     "Bisa membuat blogspot & wordpress";
+        jbv:requirement     "Bisa membuat artikel tentang kuliah karyawan.";
+        jbv:image_link      "http://www.liputankerja.com/company/fajarwangi/logo".
+
+<job02> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Marketing Staff";
+        jbv:company         "PT Equityworld Futures";
+        jbv:job_type        "Part-time";
+        jbv:job_area        "Jakarta Pusat";
+        jbv:job_desc        "Mengelola Database";
+        jbv:job_desc        "Mengatur jadwal pertemuan";
+        jbv:job_desc        "Membuat laporan harian Maupun Bulanan";
+        jbv:job_desc        "Mampu bekerja individu ataupun dengan Team";
+        jbv:requirement     "Minimal pendidikan SMK/SMA/D3/S1 Semua Jurusan";
+        jbv:requirement     "Usia 20-45 (Khusus Wanita)";
+        jbv:requirement     "Bisa bekerja dibawah tekanan";
+        jbv:requirement     "Good looking & Good person";
+        jbv:requirement     "Diutamakan yang domisili di Jakarta";
+        jbv:image_link      "https://portalinfoloker.com/wp-content/uploads/2021/03/equityworld.png".
+
+<job03> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Safety Officer Staff";
+        jbv:company         "PT Global Jet Express";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Jakarta Utara";
+        jbv:job_desc        "Do an observation in the work area";
+        jbv:job_desc        "Make the observation report";
+        jbv:job_desc        "Plan the improvement from the observation results";
+        jbv:job_desc        "Ensure the OHS system has implemented properly.";
+        jbv:requirement     "Diploma or Bachelor degree in Mechanical Engineering, Electrical Engineering, Industrial Engineering";
+        jbv:requirement     "Max age 28 years old";
+        jbv:requirement     "Have min 2 years experience in the same field";
+        jbv:requirement     "Have General K3 Certification ministry of labor";
+        jbv:requirement     "Have a good knowledge in ISO 9001:2015, ISO 14001:2015, OHSAS 18001:2007, SMK3 PP 50 TH 2012";
+        jbv:requirement     "Able to communicate in English";
+        jbv:requirement     "Loyalty, able to work in a team, have good communication skills";
+        jbv:requirement     "Can do a good presentation";
+        jbv:requirement     "Can use Microsoft Office (Ms. Word, Ms. Excel)";
+        jbv:requirement     "Have a good knowledge to make HSE plan";
+        jbv:requirement     "Willing to do business trip";
+        jbv:image_link      "https://cakapinterview.com/wp-content/uploads/2020/08/PT-Global-Jet-Express-JT-Express.jpg".
+
+<job04> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Staff Administrasi Dokumen";
+        jbv:company         "PT Global Jet Express";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Jakarta Utara";
+        jbv:job_desc        "Mengelola dokumen perusahaan yang berhubungan dengan perjanjian kerjasama maupun legal contract";
+        jbv:job_desc        "Melakukan pengarsipan dokumen (Filling dokumen) legalitas perusahaan, fotocopy dokumen, surat menyurat";
+        jbv:job_desc        "Mengelola dokumen legalitas perusahaan dan semua dokumen administrasi perusahaan";
+        jbv:job_desc        "Bertugas untuk mengelola administrasi dokumen legalitas perusahaan yang berhubungan dengan pekerjaan yang dilakukan";
+        jbv:job_desc        "Memastikan kebutuhan – kebutuhan untuk perijinan perusahaan dan terhadap peraturan perundang-undangan di Indonesia";
+        jbv:job_desc        "Mengupdate perkembangan terbaru terkait dengan legal contract";
+        jbv:requirement     "Pendidikan Minimal S1 Administrasi, Hukum";
+        jbv:requirement     "Usia Maksimal 27 Tahun";
+        jbv:requirement     "Memiliki kemampuan dalam hal pengarsipan data, Microsoft Office (Word, Excel)";
+        jbv:requirement     "Bisa Bahasa Inggris dengan baik";
+        jbv:requirement     "Cekatan, Gesit, Teliti, Detail, rajin, disiplin, bisa bekerja baik secara individu maupun dengan tim";
+        jbv:requirement     "Memiliki pengalaman dalam bidang administrasi dokumen legal min 1 tahun, Lulusan baru diperbolehkan untuk melamar pekerjaan ini";
+        jbv:requirement     "Jujur, pekerja keras, siap lembur bila diperlukan";
+        jbv:requirement     "Penempatan di daerah Pluit, Penjaringan Jakarta Utara";
+        jbv:image_link      "https://cakapinterview.com/wp-content/uploads/2020/08/PT-Global-Jet-Express-JT-Express.jpg".
+
+<job05> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Regulatory Staff - Electronic Engineer Background";
+        jbv:company         "PT Estetika Pro International";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Jakarta Barat";
+        jbv:job_desc        "Melakukan pendaftaran alat kesehatan pada Department Kesehatan dengan menyediakan dokumen-dokumen dan sertifikat dari supplier dari Luar Negeri, karena itu kemampuan berbahasa Inggris mutlak diperlukan";
+        jbv:job_desc        "Meneliti semua dokumen dan kontrak dengan supplier dari luar negeri";
+        jbv:job_desc        "Mampu menerjemahkan manual alat kesehatan ke dalam bahasa Indonesia secara literal";
+        jbv:job_desc        "Kandidat harus memiliki ketelitian yg tinggi dan kemampuan memahami dokumen dalam bahasa Inggris";
+        jbv:job_desc        "Berhubungan dengan birokrasi pemerintah dan memiliki kesabaran dalam interaksi dengan birokrasi lembaga pemerintah";
+        jbv:requirement     "Engineer Electronic (arus lemah bukan arus kuat)";
+        jbv:requirement     "Mampu berkorespondensi dan berbicara dalam bahasa Inggris";
+        jbv:requirement     "Fast Learner";
+        jbv:requirement     "Menguasai Office Software";
+        jbv:requirement     "Teliti dan detail";
+        jbv:requirement     "Menyukai bidang administrasi";
+        jbv:requirement     "Mampu bekerja di bawah tekanan";
+        jbv:requirement     "Bisa bekerja dalam tim";
+        jbv:image_link      "https://www.espro.co.id/assets/file_upload/admin/Logo%20Espro.png".
+
+<job06> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Finance & General Admin Staff";
+        jbv:company         "PT Ragam Kreasi Sapa";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Jakarta Selatan";
+        jbv:job_desc        "Provide day-to-day support on Finance and General administrative activities";
+        jbv:job_desc        "Perform documents filing according to company procedure";
+        jbv:job_desc        "Prepare invoices";
+        jbv:job_desc        "General data entry into the system";
+        jbv:job_desc        "Schedule and manage office maintenance activities";
+        jbv:requirement     "D3 or S1 qualification. Finance background is preferred";
+        jbv:requirement     "Fresh graduates are welcome to apply";
+        jbv:requirement     "Maximum 30 years of age";
+        jbv:requirement     "Ability to operate Microsoft Office";
+        jbv:requirement     "Good administration skills, well organized and detail oriented";
+        jbv:image_link      "https://id.joblum.com/uploads/34/33561.jpg".
+
+<job07> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Procurement Staff";
+        jbv:company         "PT United Family Food";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Jakarta Barat";
+        jbv:job_desc        "Researching potential vendors";
+        jbv:job_desc        "Comparing and evaluating offers from suppliers";
+        jbv:job_desc        "Negotiating contract terms of agreement and pricing";
+        jbv:job_desc        "Track orders and ensure timely delivery";
+        jbv:job_desc        "Review quality of purchased products";
+        jbv:job_desc        "Enter order details (e.g. vendors, quantities, prices) into internal databases";
+        jbv:job_desc        "Maintain updated records of purchased products, delivery information and invoices";
+        jbv:job_desc        "Prepare reports on purchases, including cost analyses";
+        jbv:job_desc        "Monitor stock levels and place orders as needed";
+        jbv:requirement     "Candidate must possess at least Bachelor's Degree in Engineering (Industrial), Business Studies/Administration/Management or equivalent";
+        jbv:requirement     "Required language(s): Bahasa Indonesia, English";
+        jbv:requirement     "Required Skill(s): Microsoft Office, communication";
+        jbv:requirement     "Preferably Staff (non-management & non-supervisor) specialized in Purchasing/Inventory/Material & Warehouse Management or equivalent";
+        jbv:requirement     "Negotiation skills";
+        jbv:requirement     "Fresh graduate are welcome to apply";
+        jbv:image_link      "https://cakapinterview.com/wp-content/uploads/2020/11/PT.-United-Family-Food.jpg".
+
+<job08> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Staff Administrasi Perijinan";
+        jbv:company         "Korindo Group";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Jakarta Selatan";
+        jbv:job_desc        "Administrasi berkas";
+        jbv:job_desc        "Perijinan online (OSS RBA)";
+        jbv:job_desc        "SAP";
+        jbv:job_desc        "Kontak klien";
+        jbv:job_desc        "Korespondensi surat";
+        jbv:job_desc        "Relati pemerintah";
+        jbv:requirement     "Kemampuan komputer (Ms.Word, Ms.Excel, SAP, OSS";
+        jbv:requirement     "Kemampuan bernegosiasi";
+        jbv:requirement     "Kemampuan berkomunikasi";
+        jbv:requirement     "People relation skill";
+        jbv:image_link      "https://image-service-cdn.seek.com.au/d8bd77785de31bd6f845371ee4e1b4676506a09e/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
+
+<job09> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Sosial Media Admin";
+        jbv:company         "PT. Taman Safari Indonesia Bogor";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Cisarua, Jawa Barat";
+        jbv:job_desc        "Menciptakan dan membuat ide untuk meningkatkan penjualan";
+        jbv:job_desc        "Mengoperasikan media sosial, Whatsapp, Instagram, Facebook, Twitter, Youtube, dan TikTok";
+        jbv:job_desc        "Membuat iklan menarik di media sosial";
+        jbv:requirement     "Berpendidikan S1 manajemen atau IT";
+        jbv:requirement     "Memilik pengalaman 3 tahun di posisi serupa";
+        jbv:requirement     "Memiliki pengetahuan dan pemahaman tentang tren terkini";
+        jbv:requirement     "memiliki pengetahuan dalam travel, turis, makanan dan minuman";
+        jbv:image_link      "https://image-service-cdn.seek.com.au/2633665a8181b523367c55ea89c40519eaad94ea/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
+
+<job10> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Asistant General Manager";
+        jbv:company         "PT. Indocemerlang Perkasa Luhur";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Jakarta Barat";
+        jbv:job_desc        "Mendukung tugas dan tanggung jawab General Manager";
+        jbv:job_desc        "Membuat laporan kerja secara rutin baik harian, mingguan maupun bulanan dan melaporkan langsung ke GM";
+        jbv:job_desc        "Bekerjasama dengan pihak terkait baik internal maupun eksternal demi kelancaran pekerjaan";
+        jbv:requirement     "Memiliki pengalaman minimal 1 tahun dibidang yang sama, Fresh graduate dipersilahkan melamar";
+        jbv:requirement     "Cermat, teliti, disiplin, bertanggung jawab terhadap tugas dan pekerjaan, bisa berkerjasama dalam tim";
+        jbv:requirement     "Pendidikan minimal S1 jurusan Manajemen/Administrasi atau terkait";
+        jbv:requirement     "Usia minimal 21 tahun, maksimal 26 tahun";
+        jbv:image_link      "https://image-service-cdn.seek.com.au/9ff711a78372466b298c4a7162f5c8f5ab9f4685/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
+
+<job11> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Senior Process Engineer";
+        jbv:company         "PT Excelitas Technologies Batam";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Batam";
+        jbv:job_desc        "Lead engineering team to meet key indices";
+        jbv:job_desc        "Improve operational management systems and processes";
+        jbv:job_desc        "Leverage industry practices and apply to internal systems and processes";
+        jbv:job_desc        "Partner with cross-functional support teams on projects and product transfers";
+        jbv:job_desc        "Provide leadership for operations subordinates in day to day activities.";
+        jbv:job_desc        "Ensure the occupational safety standards, EHS management system, and quality management system, and company regulations are adhered to.";
+ 	jbv:job_desc        "Manage timely data collection to update operations metrics to achieve productivity targets, reduce cost per unit, eliminate errors, and deliver excellent customer service with internal/external customer.";
+        jbv:requirement     "Degree in Engineering (Physics, Electrical, Mechanical, Industrial)";
+        jbv:requirement     "Min 10 years in manufacturing industry, and at least 5 years in leadership experience.";
+        jbv:requirement     "Having experience in Optics manufacturing will be an added advantage";
+        jbv:requirement     "Extensive knowledge in medical devices manufacturing quality management, will be an added advantage.";
+	jbv:requirement     "Experience with project management and change management in fast paced working environment.";
+	jbv:requirement     "Fluent in English both in speaking and writing.";
+	jbv:requirement     "Strong leadership qualities with excellent interpersonal skill and communication skill.";
+        jbv:image_link      "https://image-service-cdn.seek.com.au/7e925cd25074be56c2d0f05f4ec17e72fcdb2b40/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
+
+<job12> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Marketing";
+        jbv:company         "PT Yun Feng Indonesia";
+        jbv:job_type        "Part-Time";
+        jbv:job_area        "tangerang";
+        jbv:job_desc        "Paham dan sudah mengerti tentang dunia logistic atau background dasarnya dibidang logistic marketing";
+        jbv:job_desc        "Bertanggung jawab dan mampu mempresentasikan produk yang perusahaan miliki dengan baik dan benar";
+        jbv:job_desc        "Menciptakan dan menjalin hubungan yang baik dan produktif dengan customer lama maupun customer baru";
+        jbv:requirement     "Usia maxsimal 40 tahun";
+        jbv:requirement     "Minimal ijazah SMA sederajat / S1";
+        jbv:requirement     "3 tahun dibidang yang sama (marketing)";
+        jbv:requirement     "Menguasai computer minimal Ms Office , E-mail, dan internet";
+        jbv:requirement     "Memiliki SIM A dan dapat mengendarai mobil";
+        jbv:requirement     "Berpenampilan rapi dan sopan";
+        jbv:requirement     "Memiliki integritas & komitmen yang tinggi serta berorientsi pada tim";
+	jbv:requirement     "teliti dan Jujur";
+	jbv:image_link      "https://image-service-cdn.seek.com.au/807476368a95e853ec43cc9c306ebd681a543eb7/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
+
+<job13> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Marketing Support/ Trainer";
+        jbv:company         "PT Arkanindoplast Utama";
+        jbv:job_type        "Part-time";
+        jbv:job_area        "Bogor";
+        jbv:job_desc        "Marketing oriented dan proaktif";
+        jbv:job_desc        "Mampu mengoperasikan Ms Office";
+        jbv:job_desc        "Mencari customer";
+        jbv:job_desc        "Menjalin hubungan baik dengan customer";
+        jbv:job_desc        "Memahami cara membaca hasil pemeriksaan laboratorium dan mampu menuliskan laporan hasil";
+        jbv:job_desc        "Melakukan training produk ke mitra perusahaan";
+        jbv:job_desc        "Siap bekerja dilapangan dan suka tantangan";
+        jbv:requirement     "Pendidikan D3/ S1 Analis Kesehatan";
+        jbv:requirement     "Berpengalaman praktisi dilaboratorium kesehatan minimal 3 tahun";
+        jbv:requirement     "Berpengalaman presentasi produk dan negosiasi";
+        jbv:requirement     "Dapat berkomunikasi yang baik dan lancar";
+        jbv:requirement     "Mampu berkerja dalam Tim";
+        jbv:requirement     "Jujur, Pro Aktif, Energic, & Kreatif";
+        jbv:requirement     "Memiliki kemampuan menjadi Team Leader";
+        jbv:requirement     "Aktif berbahasa Inggris";
+        jbv:image_link      "https://image-service-cdn.seek.com.au/132a9820bb641b6b97474463a3eb17a6ddb9bf67/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
+
+<job14> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Corporate Lawyer";
+        jbv:company         "PT Tiens Indonesia Logistics Trading";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Kemayoran, Jakarta Utara";
+        jbv:job_desc        "Handling business operation code, the company legal documents, and e-commercial platform violation cases";
+        jbv:job_desc        "Review commercial agreements to ensure that terms and condition are in accordance with the company intentions and not violation of prevailing laws";
+        jbv:job_desc        "Developing and implementing legal & risk management strategies, and collaboration with the other functions provide strategic insight, potential risk exposure and mitigation plans of any significant legal and regulatory development to the management";
+        jbv:job_desc        "Advise management on various legal issues that may arise";
+        jbv:job_desc        "Conduct all works with integrity and responsibility";
+        jbv:requirement     "Candidates must possess at least Bachelor Degree or Master Degree in Law";
+        jbv:requirement     "Experienced minimum 3 years in Law Firm";
+        jbv:requirement     "Must familiar the Law of Indonesia especially for Economic Law and Contract Law";
+        jbv:requirement     "Have a strong knowledge of legal matters in terms of trademarks, licenses and legal opinion";
+        jbv:requirement     "Proficient in English is a must and able to Mandarin speaker (preferable)";
+        jbv:requirement     "Team player and able to communicate effectively with all levels";
+        jbv:requirement     "Hard worker people and willing to work under pressure";
+        jbv:image_link      "https://image-service-cdn.seek.com.au/4c2438bdf397425574006eb79c2186a667377fd1/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
+
+
+
