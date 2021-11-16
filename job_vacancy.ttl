@@ -8,7 +8,6 @@
 
 <job01> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
-	rdf:ID              "job01";
         jbv:job_title       "Staff Marketing";
         jbv:company         "PT Gilland Ganesha";
         jbv:job_type        "Full-time";
@@ -288,5 +287,139 @@
         jbv:requirement     "Hard worker people and willing to work under pressure";
         jbv:image_link      "https://image-service-cdn.seek.com.au/4c2438bdf397425574006eb79c2186a667377fd1/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
 
+<job15> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "IT Data Scientist";
+        jbv:company         "PT Prodia Widyahusada Tbk";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Jakarta Pusat";
+        jbv:job_desc        "Perform data collection both structured and unstructured data to support data models, data analysis and develop data collection process";
+        jbv:job_desc        "Create, update, recommend predictive data models, algorithm machine learning, and provide design analytics recommendations.";
+        jbv:job_desc        "Perform data analysis on analytic requests.";
+        jbv:job_desc        "Transfer knowledge in data management and analyze available data";
+        jbv:requirement     "Bachelor's Degree in Informatics Engineering / Information System / Computer Science / Statistics. Min GPA 3.00 (scale 4.00)";
+        jbv:requirement     "Have 1 year working experience as Data Scientist";
+        jbv:requirement     "Proficiency data analysis using R Language and Python";
+        jbv:requirement     "Attention detail and eager to learn";
+        jbv:image_link      "https://image-service-cdn.seek.com.au/d781392da2161c3ceb160edcb7fc0ccb5e547a1e/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
+
+
+<job17> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Data Scientist";
+        jbv:company         "Yayasan AidHub Indonesia";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Badung";
+        jbv:job_desc        "play a key role to solve complex problems and drive insights from a sea of data";
+        jbv:job_desc        "strongly emphasize modelling, algorithm creation and optimization, and the creation of data products though you may apply your skills to more advanced business analysis amenable to advanced statistical and mathematical analysis6:19 PM 11/16/20216Q2ZA.";
+        jbv:job_desc        "you will focus on the algorithm and the analysis rather than the actual construction of the operational software.";
+        jbv:requirement     "A strong mix of mathematical/statistical and programming skills.";
+        jbv:requirement     "Passion in big data analytics";
+        jbv:requirement     "2-3 years of experience in Data Modelling/Predictive Modelling and in developing machine learning.";
+        jbv:requirement     "S1/S2 degree in a quantitative field (Statistic, Mathematics, or Computer Science)";
+	jbv:requirement	    "Knowledge of a variety of machine learning techniques (clustering, modelling, decision tree learning, artificial neural networks, scenario analysis, etc.) and their real-world advantages/drawbacks";
+	jbv:requirement     "Knowledge and experience in statistical and data mining techniques: GLM/Regression, Random Forest, Boosting, Trees, text mining, social network analysis, etc";
+	jbv:requirement     "Experience analysing data from 3rd party providers: Google Analytics, Site Catalyst, Coremetrics, Adwords, Crimson Hexagon, Facebook Insights, etc";
+	jbv:requirement     "Experience querying databases and using statistical computer languages: R, Python, SQL, etc";
+	jbv:requirement     "Having Knowledge Big Data tools with distributed data/computing tools: Map/Reduce, Hadoop, Hive, Spark, Gurobi, MySQL, etc";
+	jbv:requirement     "Experience visualizing/presenting data for stakeholders using: Periscope, Business Objects, D3, ggplot, etc.";
+        jbv:image_link      "https://image-service-cdn.seek.com.au/9b692f209622949279e729a0faf85c537e22289b/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
+
+<job18> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Data Scientist";
+        jbv:company         "PT Sharing Vision Indonesia";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Jakarta Raya";
+        jbv:job_desc        "BERTUGAS UNTUK MELAKUKAN PENGEMBANGAN PERMODELAN MACHINE LEARNING ATAU ARTIFICIAL INTELLIGENT YANG DIPERLUKAN UNTUK MENJAWAB PERMASALAH YANG INGIN DIPECAHKAN CLIENT";
+        jbv:requirement     "Berpengalaman dalam pekerjaan terkait data scientist minimal 2 tahun";
+        jbv:requirement     "Mempunyai sertifikasi professional data scientist seperti CDSM/CDSP";
+        jbv:requirement     "Advance dalam bahasa pemrograman Python/PySpark untuk pemodelan machine learning";
+        jbv:requirement     "Advance dalam SQL";
+	jbv:requirement	    "Advance dalam teknik pemodelan machine learning, artificial intelligent dan statistik (i.e classification, regression, clustering, fraud detection, credit scoring)";
+	jbv:requirement     "Advance dalam menggunakan Tableau/Google Analytics/tools dashboard lainnya";
+	jbv:requirement     "Pengalaman dalam teknologi big data (Spark, Hive, Impala) lebih diutamakan";
+	jbv:requirement     "Memiliki sertifikasi atau training data science dari lembaga resmi";
+        jbv:image_link      "https://image-service-cdn.seek.com.au/9cddb5acee7ee489ccd2e3cf0163ffc1e7fd120c/a868bcb8fbb284f4e8301904535744d488ea93c1".
+
+<job19> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Data Analyst/ Data Scientist";
+        jbv:company         "ABeam Consulting Indonesia";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Jakarta Raya";
+        jbv:job_desc        "Define business issues with client and propose analytics subject to solve them.";
+        jbv:job_desc        "Extract data from several data sources with scratch SQL queries and cleanse the data from the statistical perspective.";
+        jbv:job_desc        "Analyze data and summarize insight into intelligible document and share it to client management and users..";
+        jbv:job_desc        "Build statistical model and do advanced analysis by utilizing Statistical Method and Machine Learning.";
+        jbv:job_desc        "Keep learning and developing new skills, as well as encourage team member's skills development..";
+        jbv:requirement     "Fluent in English both speaking and writing.";
+        jbv:requirement     "Strong technical experience for data analytics/handling solution such as R, Python, SAS, SQL.";
+        jbv:requirement     "Experience for building model and related advanced analysis such as classification, regression, clustering, etc.";
+        jbv:requirement     "Advanced MS Excel: pivot table, index, vlookup. Power Pivot and VBA experience a plus.";
+	jbv:requirement	    "Experience with data quality assessment techniques";
+	jbv:requirement     "Experience with data harmonization, normalization, aggregation, allocation, etc.";
+	jbv:requirement     "Able to adapt new technology and current trend in IT field.";
+	jbv:requirement     "Strong quantitative skills and statistical knowledge.";
+        jbv:image_link      "https://image-service-cdn.seek.com.au/fa2411ba0861c9a3ffdef042743d7a7f8837477a/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
+
+<job20> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "Data Scientist Analyst";
+        jbv:company         "PT Main Games Indonesia (Jakarta)";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Jakarta Selatan";
+        jbv:job_desc        "Mine and analyze data from company databases to drive optimization and improvement of product development, marketing techniques and business strategies.";
+        jbv:job_desc        "Assess the effectiveness and accuracy of new data sources and data gathering techniques.";
+        jbv:job_desc        "Develop custom data models and algorithms to apply to data sets";
+        jbv:job_desc        "Coordinate with different functional teams to implement models and monitor outcomes.";
+        jbv:job_desc        "Develop processes and tools to monitor and analyze model performance and data accuracy.";
+        jbv:requirement     "Having 3-5 years of experience manipulating data sets and building statistical models.";
+        jbv:requirement     "Education background : Bachelor degree, but preferable from Master degree in Statistics, Mathematics, Computer Science, or another quantitative field. PhD level is an advantage. GPA must be >3.00.";
+        jbv:requirement     "Average High School National Examination Score/nilai rata-rata Ujian Nasional must be (average) >8.00";
+        jbv:requirement     "Young and energetic person";
+	jbv:requirement	    "Strong problem solving skills with an emphasis on product development";
+	jbv:requirement     "Experience using statistical computer languages (R, Python, SLQ, etc.) to manipulate data and draw insights from large data sets";
+	jbv:requirement     "Experience working with and creating data architectures";
+	jbv:requirement     "Deep knowledge to handle big data.";
+	jbv:requirement     "Knowledge of a variety of machine learning techniques (clustering, decision tree learning, artificial neural networks, etc.) and their real-world advantages/drawbacks.";    
+        jbv:requirement     "Knowledge of advanced statistical techniques and concepts (regression, properties of distributions, statistical tests and proper usage, etc.) and experience with applications";
+        jbv:requirement     "Adaptable with dynamic work environment";
+        jbv:image_link      "https://image-service-cdn.seek.com.au/2224af0eb28c28ed2207dbac5f192ee139da8a49/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
+
+<job21> rdf:type            rdfs:Class;
+        rdfs:subClassOf     <job_vacancy>;
+        jbv:job_title       "AI Specialist (Machine Learning Engineer)";
+        jbv:company         "Yayasan AidHub Indonesia";
+        jbv:job_type        "Full-time";
+        jbv:job_area        "Badung";
+        jbv:job_desc        "Responsible for building and deploying new AI solutions to improve various business outcomes and drive innovation.";
+        jbv:job_desc        "Helping our AI strategy and define the problems we are solving with AI..";
+        jbv:job_desc        "Contribute on our AI development and work in building AI models and putting them into production. .";
+        jbv:job_desc        "Collaborate with other data scientists/engineers, subject matter experts, sales, and delivery teams.";
+        jbv:job_desc        "Research and develop existing computer vision algorithms to solve desired used cases.";
+        jbv:job_desc        "Develop and adapt advanced computer vision and deep learning techniques for object classification, detection, and segmentation.";
+	jbv:job_desc 	    "Deploy deep learning models into operations.";
+	jbv:job_desc        "Construct a big data analysis using various machine learning/deep learning techniques to build predictive model outcome/forecasting based on multiple hypothesis.";
+	jbv:job_desc        "Dive into data to understand business problems that may benefit from Machine Learning.";
+	jbv:job_desc        "Train novel machine learning models and take them to production.";
+	jbv:job_desc        "Invest in feature engineering and model hyper-parameter tuning to improve predictive power and performance of the models.";    
+        jbv:job_desc        "After deployment, closely monitor the model and take recourse to model interpretability to understand how its impacts on users.";
+        jbv:job_desc        "Work cross-functionally with data scientists, product managers, operations, and other engineering teams to build generalizable and reusable models.";
+        jbv:job_desc        "Collaborate with our data infrastructure teams to build highly scalable services and systems.";
+        jbv:job_desc        "Present Machine Learning success stories to internal and external audiences.";
+        jbv:job_desc        "Survey the latest and greatest in various areas of ML and bring the benefits of those to the firm whenever possible.";
+        jbv:requirement     "Bachelor’s degree from Computer Science, Statistics, Engineering, Physics or Mathematics.";
+        jbv:requirement     "M.Sc. or Ph.D. from Computer Science, Statistics, Engineering, Physics or Mathematics also welcome.";
+        jbv:requirement     "Proficient verbal and written communication skills in English.";
+        jbv:requirement     "At least 2 years of hands-on experience in Artificial Intelligence using programming languages such as Python & Java and platforms such as MXNet, TensorFlow, Caffe & Torch, UI/UX, Javascript, HTML, CSS, Frontend Development, UI/UX, Adobe Design Program, PHP, Photoshop, AngularJS, Python Flask.";
+        jbv:requirement     "Experience working with RESTful API and microservice oriented architectures.";
+        jbv:requirement     "Good Proficiency in python and any programming software.";
+        jbv:requirement     "Minimum 2 years’ experience in computer vision or other AI/ML projects.";
+        jbv:requirement     "Good understanding in data management, data mining and big data analyses.";
+        jbv:requirement     "Knowledge of big data and distributed computing (e.g., Hadoop, Spark/ PySpark, Airflow) is a plus.";
+        jbv:requirement     "Strong motivation and ability to learn new languages programming and technologies.";
+        jbv:requirement     "Ability to teach, explain and simplify AI concepts and logic..";
+        jbv:image_link      "https://image-service-cdn.seek.com.au/9b692f209622949279e729a0faf85c537e22289b/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
 
 
