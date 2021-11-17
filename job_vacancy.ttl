@@ -8,7 +8,7 @@
 <job_vacancy> rdf:type rdfs:Class.
 <company> rdf:type rdfs:Class.
 
-jbv:company01   rdf:type            rdfs:Class;
+<company01>   	rdf:type            rdfs:Class;
                 rdfs:subClassOf     <company>;
                 rdf:about           "PT Gilland Ganesha";
                 dc:description      "PT Gilland Ganesha bergerak di bidang Jasa Konsultan Pendidikan Tinggi, Internet, Peternakan, dsb. Khusus bidang internet, sebagai pengelola civitasbook.com, ggkarir.com, kodepos.nomor.net, cangkok.co.id, flamboyan.co.id, dapoer-flamboyan.com, dompi.co.id, ggiklan.com, kucing.biz, forum-warga.web.id, bursa kerja. ptkpt.net, villasingo.com, al-quran.bahagia.us, dsb-nya.";
@@ -19,7 +19,7 @@ jbv:company01   rdf:type            rdfs:Class;
 <job01> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Staff Marketing";
-        jbv:company         jbv:company01;
+        jbv:company         <company01>;
         dc:type             "Full-time";
         jbv:area            "Balikpapan";
         dc:description      "Menawarkan Program Perkuliahan kepada masyarakat";
