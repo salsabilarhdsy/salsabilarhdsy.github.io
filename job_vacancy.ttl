@@ -11,7 +11,7 @@
 <company01>     rdf:type            rdfs:Class;
                 rdfs:subClassOf     <company>;
                 rdf:about           "PT Gilland Ganesha";
-                dc:description      "PT Gilland Ganesha bergerak di bidang Jasa Konsultan Pendidikan Tinggi, Internet, Peternakan, dsb. Khusus bidang internet, sebagai pengelola civitasbook.com, ggkarir.com, kodepos.nomor.net, cangkok.co.id, flamboyan.co.id, dapoer-flamboyan.com, dompi.co.id, ggiklan.com, kucing.biz, forum-warga.web.id, bursa kerja. ptkpt.net, villasingo.com, al-quran.bahagia.us, dsb-nya.".
+                dc:description      "PT Gilland Ganesha bergerak di bidang Jasa Konsultan Pendidikan Tinggi, Internet, Peternakan, dsb. Khusus bidang internet, sebagai pengelola civitasbook.com, ggkarir.com, kodepos.nomor.net, cangkok.co.id, flamboyan.co.id, dapoer-flamboyan.com, dompi.co.id, ggiklan.com, kucing.biz, forum-warga.web.id, bursa kerja. ptkpt.net, villasingo.com, al-quran.bahagia.us, dsb-nya.";
                 jbv:cIndustry       "Konsultasi (Bisnis & Manajemen)";
                 jbv:cSize           "201 - 500 Karyawan".
 
