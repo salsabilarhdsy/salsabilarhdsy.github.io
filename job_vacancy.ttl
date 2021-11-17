@@ -162,7 +162,7 @@
         dc:requires         "Familiar menggunakan medsos: IG, FB, Tiktok";
         dc:requires         "Bisa membuat blogspot & wordpress";
         dc:requires         "Bisa membuat artikel tentang kuliah karyawan.";
-        jbv:image           "http://www.liputankerja.com/company/fajarwangi/logo".
+        jbv:image           "https://image-service-cdn.seek.com.au/280758ac48fcd3d26cc979560823613cf245d12f/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
 
 <job02> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
@@ -181,7 +181,7 @@
         dc:requires         "Bisa bekerja dibawah tekanan";
         dc:requires         "Good looking & Good person";
         dc:requires         "Diutamakan yang domisili di Jakarta";
-        jbv:image           "https://portalinfoloker.com/wp-content/uploads/2021/03/equityworld.png".
+        jbv:image           "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/wpby8i8xf6ksaxcunbke".
 
 <job03> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
@@ -206,7 +206,7 @@
         dc:requires         "Can use Microsoft Office (Ms. Word, Ms. Excel)";
         dc:requires         "Have a good knowledge to make HSE plan";
         dc:requires         "Willing to do business trip";
-        jbv:image           "https://cakapinterview.com/wp-content/uploads/2020/08/PT-Global-Jet-Express-JT-Express.jpg".
+        jbv:image           "https://image-service-cdn.seek.com.au/8c3b9245a2f8d0845a9a79e0e9632381c3b56a68/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
 
 <job04> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
@@ -230,7 +230,7 @@
         dc:requires         "Memiliki pengalaman dalam bidang administrasi dokumen legal min 1 tahun, Lulusan baru diperbolehkan untuk melamar pekerjaan ini";
         dc:requires         "Jujur, pekerja keras, siap lembur bila diperlukan";
         dc:requires         "Penempatan di daerah Pluit, Penjaringan Jakarta Utara";
-        jbv:image           "https://cakapinterview.com/wp-content/uploads/2020/08/PT-Global-Jet-Express-JT-Express.jpg".
+        jbv:image           "https://image-service-cdn.seek.com.au/8c3b9245a2f8d0845a9a79e0e9632381c3b56a68/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
 
 <job05> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
@@ -253,7 +253,7 @@
         dc:requires         "Menyukai bidang administrasi";
         dc:requires         "Mampu bekerja di bawah tekanan";
         dc:requires         "Bisa bekerja dalam tim";
-        jbv:image           "https://www.espro.co.id/assets/file_upload/admin/Logo%20Espro.png".
+        jbv:image           "https://image-service-cdn.seek.com.au/8ee91e1071f7fa11330ebd94026ac96e2345cca2/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
 
 <job06> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
@@ -298,7 +298,7 @@
         dc:requires         "Preferably Staff (non-management & non-supervisor) specialized in Purchasing/Inventory/Material & Warehouse Management or equivalent";
         dc:requires         "Negotiation skills";
         dc:requires         "Fresh graduate are welcome to apply";
-        jbv:image           "https://cakapinterview.com/wp-content/uploads/2020/11/PT.-United-Family-Food.jpg".
+        jbv:image           "https://image-service-cdn.seek.com.au/f420f833e093d3d928330cd1cf188a3e37a3cadf/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
 
 <job08> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
@@ -505,7 +505,7 @@
 	dc:requires         "Advance dalam menggunakan Tableau/Google Analytics/tools dashboard lainnya";
 	dc:requires         "Pengalaman dalam teknologi big data (Spark, Hive, Impala) lebih diutamakan";
 	dc:requires         "Memiliki sertifikasi atau training data science dari lembaga resmi";
-        jbv:image           "https://image-service-cdn.seek.com.au/9cddb5acee7ee489ccd2e3cf0163ffc1e7fd120c/a868bcb8fbb284f4e8301904535744d488ea93c1".
+        jbv:image           "data:image/jpeg;base64,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".
 
 <job18> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
