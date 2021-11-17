@@ -1,6 +1,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix jbv: <http://www.jobvacancy.fakeurl.com/vocab#>.
 @base <http://www.jobvacancy.fakeurl.com/>.
 
@@ -8,12 +9,132 @@
 <job_vacancy> rdf:type rdfs:Class.
 <company> rdf:type rdfs:Class.
 
-<company01>   	rdf:type            rdfs:Class;
+<company01>     rdf:type            rdfs:Class;
                 rdfs:subClassOf     <company>;
                 rdf:about           "PT Gilland Ganesha";
                 dc:description      "PT Gilland Ganesha bergerak di bidang Jasa Konsultan Pendidikan Tinggi, Internet, Peternakan, dsb. Khusus bidang internet, sebagai pengelola civitasbook.com, ggkarir.com, kodepos.nomor.net, cangkok.co.id, flamboyan.co.id, dapoer-flamboyan.com, dompi.co.id, ggiklan.com, kucing.biz, forum-warga.web.id, bursa kerja. ptkpt.net, villasingo.com, al-quran.bahagia.us, dsb-nya.";
                 jbv:cIndustry       "Konsultasi (Bisnis & Manajemen)";
-                jbv:cSize           "201 - 500 Karyawan".
+                jbv:cSize           "201 - 500 pekerja".
+
+<company02>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "PT Equityworld Futures";
+                dc:description      "PT. Equityworld Futures merupakan salah satu anggota Bursa Berjangka Jakarta (Jakarta Futures Exchange) yang resmi berdiri pada tahun 2005.";
+                jbv:cIndustry       "Konsultasi (Bisnis & Manajemen)";
+                jbv:cSize           "501 - 1000 pekerja".
+
+<company03>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "PT Global Jet Express";
+                dc:description      "J&T adalah perusahan express yang berbasis perkembangan sistem IT. Kami mengabungkan pasar express antarkota, domestic, internasional dan juga bisnis e-komersial. Pendiri J&T express adalah Mantan CEO OPPO Indonesia Mr.Jet Lee beserta Pendiri OPPO internasional Mr.Tony Chen. J&T mengunakan system IT yang termutakhir untuk meningkatkan efisiensi dan kualitas pelayanan kepada pelanggan. Kami menyediakan layanan penjemputan paket ditempat dan pengiriman yang cepat kepada pelanggan, pada saat yang sama juga mendukung perkembangan bisnis e-komersial.";
+                jbv:cIndustry       "Transportasi/Logistik";
+                jbv:cSize           "2001 - 5000 pekerja".
+
+<company04>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "PT Estetika Pro International";
+                dc:description      "PT Estetika Pro International is a fast growing national company in importing and distributing medical beauty devices and skincare for 19 years with good track record in the eyes of customers.";
+                jbv:cIndustry       "Kesehatan/Medis";
+                jbv:cSize           "1- 50 pekerja".
+
+<company05>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "PT Ragam Kreasi Sapa";
+                dc:description      "Established in 2003, KINETO (www.kineto.id) provide a wide range of creative services to local and multinational clients, from concept to various types of visual communication, both traditional and modern digital channels. Armed with a group of young and energetic talents who live and breathe creative excellence, we always strive to deliver fresh ideas, unique design and flawless executions to every work we do. ";
+                jbv:cIndustry       "Periklanan/Marketing/Promosi/Hubungan Masyarakat";
+                jbv:cSize           "1- 50 pekerja".
+
+<company06>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "PT United Family Food";
+                dc:description      "We, PT. United Family Food, are a confectionery company; committed to continuously serve the best products and service to our customers. Our company is known for the best quality products with an attractive packaging and great taste. Our effort is to give satisfaction to consumers with various products to fulfill the needs of children and families.";
+                jbv:cIndustry       "Produk Konsumen/Barang konsumen yang bergerak cepat";
+                jbv:cSize           "2001 - 5000 pekerja".
+
+<company07>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "Korindo Group";
+                dc:description      "A local group of companies with multinational management team, was founded in 1969. As a leader across multiple industries in the South East Asian market, KORINDO Group compromises more than 30 affiliated companies engaged in the business of natural resources, paper manufacturing, heavy industries, financing, real estate, chemicals, and logistics. Over the years, the group has grown into a global enterprise with over than 25,000 employees and keeps making significant contributions to the country’s economic development while constantly upholding environmentally friendly, future-oriented practices.";
+                jbv:cIndustry       "Agrikultural/Perkebunan/Peternakan Unggas/Perikanan";
+                jbv:cSize           "Lebih dari 5000 pekerja".
+
+<company08>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "PT. Taman Safari Indonesia Bogor";
+                dc:description      "We are an International Standard Conservation, Research, Education and Theme Park Institute that continues to grow at this time in need of professionals.";
+                jbv:cIndustry       "Hotel/Pariwisata";
+                jbv:cSize           "501 - 1000 pekerja".
+
+<company09>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "PT. Indocemerlang Perkasa Luhur";
+                dc:description      "Since 1995, PT Indocemerlang has been providing packaging supplies to numerous industries such as food company, retail shop, electronics and many others; upholding reputable image and prompt deliveries with a well established history as the manufacturer of quality packaging. PT Indocemerlang has become a staple provider for retail packaging.";
+                jbv:cIndustry       "51 - 200 pekerja";
+                jbv:cSize           "Polymer/Plastik/Karet/Ban".
+
+<company10>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "PT Excelitas Technologies Batam";
+                dc:description      "Excelitas Technologies is a global technology leader focused on delivering innovative, high-performance, market-driven photonic solutions to meet the illumination, optronics, detection and optical technology needs of global customers. Serving a vast array of applications across biomedical, scientific, safety, security, consumer products, semiconductor, industrial manufacturing, defense and aerospace sectors, we stand committed to enabling our customers' success in their end-markets.";
+                jbv:cIndustry       "Elektrikal & Elektronik";
+                jbv:cSize           "2001 - 5000 pekerja".
+
+<company11>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "PT Yun Feng Indonesia";
+                dc:description      "PT. Yun Feng Indonesia kaya akan pengalaman industry. Sejak awal berdiri,perusahaan grup sangat unggul didalam industri kemasan dan percetakan, dengan penuh semangat mempromosikan pengembangan rangkaian usaha EP Foam, rangkaian kotak kemasan istimewa, rangkaian produk blister, rangkaian dus karton gelombang serta produk kemasan lainnya, dan terus berpegang pada misinya dalam mengikuti tren kemasan, bisnis yang diciptakan untuk masa depan.";
+                jbv:cIndustry       "Percetakan/Penerbitan";
+                jbv:cSize           "1- 50 pekerja".
+
+<company12>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "PT Arkanindoplast Utama";
+                dc:description      "PT Arkanindoplast Utama merupakan Perusahaan Industri Plastic Packaging bersertifikat ISO 9001-2008  yang berlokasi di daerah Bogor.  Perusahaan memproduksi berbagai macam kemasan plastik  yang berkualitas dan berpresisi tinggi.";
+                jbv:cIndustry       "Manufaktur/Produksi";
+                jbv:cSize           "51 - 200 pekerja".
+
+<company13>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "PT Tiens Indonesia Logistics Trading";
+                dc:description      "TIENS Was established in 1995 and entered the international market in early 1998 with an internationalized paradigm catering to its own development. With branches set up in 103 countries and regions, it has established extensive strategic partnerships with over 10 overseas enterprises in the United States, Germany, Malaysia, Spain, Egypt, and etc. In China, Tiens has registered 33 provincial-level subsidiaries and 100 second level subsidiaries with 3,000 monopoly stores. Tiens sells its products in 190 countries and regions, and maintains 10 million regular customers in the world. World Brand Laboratory, a famous world brand evaluation institution, and World Economic Forum reputed as Economic UN, jointly issued the list China Top 500 Most Valuable Brands. With the brand value of RMB 7,412 million, Tiens Group ranked No. 64 on the list.";
+                jbv:cIndustry       "Umum & Grosir";
+                jbv:cSize           "51 - 200 pekerja".
+                
+<company14>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "PT Prodia Widyahusada Tbk";
+                dc:description      "Laboratorium Klinik Prodia adalah brand untuk PT Prodia Widyahusada Tbk merupakan laboratorium klinik terbesar di Indonesia yang didirikan pada tanggal 07 Mei 1973. Saat ini Laboratorium Klinik Prodia telah berkembang pesat dengan jaringan 109 cabang di 79 kota dan 28 provinsi. Prodia didukung oleh sekitar 3,000 karyawan profesional berdedikasi tinggi, mampu melayani lebih dari 2,2 juta pelanggan per tahun di seluruh nusantara.";
+                jbv:cIndustry       "BioTeknologi/Farmasi/Riset klinik";
+                jbv:cSize           "2001 - 5000 pekerja".
+
+<company15>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "Yayasan AidHub Indonesia";
+                dc:description      "dHub is an online Mission Empowerment Platform, available to all users for Free, specifically designed to empower every Aid, CSR, Government and Nonprofit organisation globally (Global Community) of any size or complexity with SMART technologies to more easily gain funding and efficiently plan, implement, manage, monitor, and report on their program initiatives end-to-end. particularly for better management and global collaboration of crisis such as Climate and Pandemics";
+                jbv:cIndustry       "Komputer/Teknik Informatika (Perangkat Lunak)";
+                jbv:cSize           "1- 50 pekerja".
+
+<company16>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "PT Sharing Vision Indonesia";
+                dc:description      "Sharing Vision adalah sebuah lembaga riset Telematika yang berkedudukan di Bandung, Jawa Barat. Disamping riset, Sharing Vision juga melakukan berbagai bentuk Training/Pelatihan dan Konsultasi di bidang Teknologi Informasi dan Telekomunikasi. ";
+                jbv:cIndustry       "Konsultasi (IT, Ilmu Pengetahuan, Teknis & Teknikal)";
+                jbv:cSize           "51 - 200 pekerja".
+
+<company17>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "ABeam Consulting Indonesia";
+                dc:description      "ABeam Consulting is one of top management consulting firms operating globally with 6,485 employees including Japan, Asia, US, and Europe (As of April 1, 2021).";
+                jbv:cIndustry       "Konsultasi (Bisnis & Manajemen)";
+                jbv:cSize           "51 - 200 pekerja".
+
+<company18>     rdf:type            rdfs:Class;
+                rdfs:subClassOf     <company>;
+                rdf:about           "PT Main Games Indonesia (Jakarta)";
+                dc:description      "PT MainGames Indonesia is a leading Creator Service Provider (CSP) serving gaming creators across Indonesia, Pakistan, Bangladesh, Malaysia, Taiwan, Sri Lanka and Nepal.Our mission is to help nurture creators from the next billion people to realize their full potential as game streamers, via a combination of technology, operational excellence and genuine respect for their fans and communities.";
+                jbv:cIndustry       "Komputer/Teknik Informatika (Perangkat Lunak)";
+                jbv:cSize           "1- 50 pekerja".
+
 
 
 <job01> rdf:type            rdfs:Class;
@@ -22,6 +143,8 @@
         jbv:company         <company01>;
         dc:type             "Full-time";
         jbv:area            "Balikpapan";
+        jbv:salary          "IDR 4.500.000 - IDR 6.000.000";
+        jbv:postDate        "2021-11-14"^^xsd:date;
         dc:description      "Menawarkan Program Perkuliahan kepada masyarakat";
         dc:description      "Melakukan kegiatan promosi dan marketing";
         dc:description      "Melakukan kegiatan administrasi perkantoran";
@@ -44,9 +167,11 @@
 <job02> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Marketing Staff";
-        jbv:company         "PT Equityworld Futures";
+        jbv:company         <company02>;
         dc:type             "Part-time";
         jbv:area            "Jakarta Pusat";
+        jbv:salary          "IDR 5.000.000 - IDR 6.500.000";
+        jbv:postDate        "2021-11-02"^^xsd:date;
         dc:description      "Mengelola Database";
         dc:description      "Mengatur jadwal pertemuan";
         dc:description      "Membuat laporan harian Maupun Bulanan";
@@ -61,9 +186,11 @@
 <job03> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Safety Officer Staff";
-        jbv:company         "PT Global Jet Express";
+        jbv:company         <company03>;
         dc:type             "Full-time";
         jbv:area            "Jakarta Utara";
+        jbv:salary          "IDR 4.000.000 - IDR 6.000.000";
+        jbv:postDate        "2021-11-05"^^xsd:date;
         dc:description      "Do an observation in the work area";
         dc:description      "Make the observation report";
         dc:description      "Plan the improvement from the observation results";
@@ -84,9 +211,11 @@
 <job04> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Staff Administrasi Dokumen";
-        jbv:company         "PT Global Jet Express";
+        jbv:company         <company03>;
         dc:type             "Full-time";
         jbv:area            "Jakarta Utara";
+        jbv:salary          "IDR 4.000.000 - IDR 6.000.000";
+        jbv:postDate        "2021-11-10"^^xsd:date;
         dc:description      "Mengelola dokumen perusahaan yang berhubungan dengan perjanjian kerjasama maupun legal contract";
         dc:description      "Melakukan pengarsipan dokumen (Filling dokumen) legalitas perusahaan, fotocopy dokumen, surat menyurat";
         dc:description      "Mengelola dokumen legalitas perusahaan dan semua dokumen administrasi perusahaan";
@@ -106,9 +235,11 @@
 <job05> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Regulatory Staff - Electronic Engineer Background";
-        jbv:company         "PT Estetika Pro International";
+        jbv:company         <company04>;
         dc:type             "Full-time";
         jbv:area            "Jakarta Barat";
+        jbv:salary          "IDR 4.000.000 - IDR 6.500.000";
+        jbv:postDate        "2021-11-15"^^xsd:date;
         dc:description      "Melakukan pendaftaran alat kesehatan pada Department Kesehatan dengan menyediakan dokumen-dokumen dan sertifikat dari supplier dari Luar Negeri, karena itu kemampuan berbahasa Inggris mutlak diperlukan";
         dc:description      "Meneliti semua dokumen dan kontrak dengan supplier dari luar negeri";
         dc:description      "Mampu menerjemahkan manual alat kesehatan ke dalam bahasa Indonesia secara literal";
@@ -127,9 +258,11 @@
 <job06> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Finance & General Admin Staff";
-        jbv:company         "PT Ragam Kreasi Sapa";
+        jbv:company         <company05>;
         dc:type             "Full-time";
         jbv:area            "Jakarta Selatan";
+        jbv:salary          "IDR 4.000.000 - IDR 6.000.000";
+        jbv:postDate        "2021-11-17"^^xsd:date;
         dc:description      "Provide day-to-day support on Finance and General administrative activities";
         dc:description      "Perform documents filing according to company procedure";
         dc:description      "Prepare invoices";
@@ -145,9 +278,11 @@
 <job07> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Procurement Staff";
-        jbv:company         "PT United Family Food";
+        jbv:company         <company06>;
         dc:type             "Full-time";
         jbv:area            "Jakarta Barat";
+        jbv:salary          "IDR 4.000.000 - IDR 6.000.000";
+        jbv:postDate        "2021-10-27"^^xsd:date;
         dc:description      "Researching potential vendors";
         dc:description      "Comparing and evaluating offers from suppliers";
         dc:description      "Negotiating contract terms of agreement and pricing";
@@ -168,9 +303,11 @@
 <job08> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Staff Administrasi Perijinan";
-        jbv:company         "Korindo Group";
+        jbv:company         <company07>;
         dc:type             "Full-time";
         jbv:area            "Jakarta Selatan";
+        jbv:salary          "IDR 4.000.000 - IDR 6.000.000";
+        jbv:postDate        "2021-11-18"^^xsd:date;
         dc:description      "Administrasi berkas";
         dc:description      "Perijinan online (OSS RBA)";
         dc:description      "SAP";
@@ -186,9 +323,11 @@
 <job09> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Sosial Media Admin";
-        jbv:company         "PT. Taman Safari Indonesia Bogor";
+        jbv:company         <company08>;
         dc:type             "Full-time";
         jbv:area            "Cisarua, Jawa Barat";
+        jbv:salary          "IDR 4.000.000 - IDR 6.000.000";
+        jbv:postDate        "2021-11-03"^^xsd:date;
         dc:description      "Menciptakan dan membuat ide untuk meningkatkan penjualan";
         dc:description      "Mengoperasikan media sosial, Whatsapp, Instagram, Facebook, Twitter, Youtube, dan TikTok";
         dc:description      "Membuat iklan menarik di media sosial";
@@ -201,9 +340,11 @@
 <job10> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Asistant General Manager";
-        jbv:company         "PT. Indocemerlang Perkasa Luhur";
+        jbv:company         <company09>;
         dc:type             "Full-time";
         jbv:area            "Jakarta Barat";
+        jbv:salary          "IDR 6.000.000 - IDR 8.000.000";
+        jbv:postDate        "2021-11-12"^^xsd:date;
         dc:description      "Mendukung tugas dan tanggung jawab General Manager";
         dc:description      "Membuat laporan kerja secara rutin baik harian, mingguan maupun bulanan dan melaporkan langsung ke GM";
         dc:description      "Bekerjasama dengan pihak terkait baik internal maupun eksternal demi kelancaran pekerjaan";
@@ -216,9 +357,11 @@
 <job11> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Senior Process Engineer";
-        jbv:company         "PT Excelitas Technologies Batam";
+        jbv:company         <company10>;
         dc:type             "Full-time";
         jbv:area            "Batam";
+        jbv:salary          "IDR 8.000.000 - IDR 10.000.000";
+        jbv:postDate        "2021-11-14"^^xsd:date;
         dc:description      "Lead engineering team to meet key indices";
         dc:description      "Improve operational management systems and processes";
         dc:description      "Leverage industry practices and apply to internal systems and processes";
@@ -238,9 +381,11 @@
 <job12> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Marketing";
-        jbv:company         "PT Yun Feng Indonesia";
+        jbv:salary          "IDR 4.000.000 - IDR 6.000.000";
+        jbv:company         <company11>;
         dc:type             "Part-Time";
         jbv:area            "Tangerang";
+        jbv:postDate        "2021-11-06"^^xsd:date;
         dc:description      "Paham dan sudah mengerti tentang dunia logistic atau background dasarnya dibidang logistic marketing";
         dc:description      "Bertanggung jawab dan mampu mempresentasikan produk yang perusahaan miliki dengan baik dan benar";
         dc:description      "Menciptakan dan menjalin hubungan yang baik dan produktif dengan customer lama maupun customer baru";
@@ -257,9 +402,11 @@
 <job13> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Marketing Support/ Trainer";
-        jbv:company         "PT Arkanindoplast Utama";
+        jbv:company         <company12>;
         dc:type             "Part-time";
         jbv:area            "Bogor";
+        jbv:salary          "IDR 4.000.000 - IDR 6.000.000";
+        jbv:postDate        "2021-11-09"^^xsd:date;
         dc:description      "Marketing oriented dan proaktif";
         dc:description      "Mampu mengoperasikan Ms Office";
         dc:description      "Mencari customer";
@@ -280,9 +427,11 @@
 <job14> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Corporate Lawyer";
-        jbv:company         "PT Tiens Indonesia Logistics Trading";
+        jbv:company         <company13>;
         dc:type             "Full-time";
+        jbv:salary          "IDR 6.000.000 - IDR 8.000.000";
         jbv:area            "Kemayoran, Jakarta Utara";
+        jbv:postDate        "2021-11-11"^^xsd:date;
         dc:description      "Handling business operation code, the company legal documents, and e-commercial platform violation cases";
         dc:description      "Review commercial agreements to ensure that terms and condition are in accordance with the company intentions and not violation of prevailing laws";
         dc:description      "Developing and implementing legal & risk management strategies, and collaboration with the other functions provide strategic insight, potential risk exposure and mitigation plans of any significant legal and regulatory development to the management";
@@ -300,9 +449,11 @@
 <job15> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "IT Data Scientist";
-        jbv:company         "PT Prodia Widyahusada Tbk";
+        jbv:company         <company14>;
         dc:type             "Full-time";
         jbv:area            "Jakarta Pusat";
+        jbv:salary          "IDR 7.500.000 - IDR 9.500.000";
+        jbv:postDate        "2021-11-11"^^xsd:date;
         dc:description      "Perform data collection both structured and unstructured data to support data models, data analysis and develop data collection process";
         dc:description      "Create, update, recommend predictive data models, algorithm machine learning, and provide design analytics recommendations.";
         dc:description      "Perform data analysis on analytic requests.";
@@ -314,12 +465,14 @@
         jbv:image           "https://image-service-cdn.seek.com.au/d781392da2161c3ceb160edcb7fc0ccb5e547a1e/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
 
 
-<job17> rdf:type            rdfs:Class;
+<job16> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Data Scientist";
-        jbv:company         "Yayasan AidHub Indonesia";
+        jbv:company         <company15>;
         dc:type             "Full-time";
         jbv:area            "Badung";
+        jbv:salary          "IDR 7.000.000 - IDR 9.000.000";
+        jbv:postDate        "2021-11-14"^^xsd:date;
         dc:description      "play a key role to solve complex problems and drive insights from a sea of data";
         dc:description      "strongly emphasize modelling, algorithm creation and optimization, and the creation of data products though you may apply your skills to more advanced business analysis amenable to advanced statistical and mathematical analysis6:19 PM 11/16/20216Q2ZA.";
         dc:description      "you will focus on the algorithm and the analysis rather than the actual construction of the operational software.";
@@ -335,12 +488,14 @@
 	dc:requires         "Experience visualizing/presenting data for stakeholders using: Periscope, Business Objects, D3, ggplot, etc.";
         jbv:image           "https://image-service-cdn.seek.com.au/9b692f209622949279e729a0faf85c537e22289b/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
 
-<job18> rdf:type            rdfs:Class;
+<job17> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Data Scientist";
-        jbv:company         "PT Sharing Vision Indonesia";
+        jbv:salary          "IDR 8.000.000 - IDR 10.000.000";
+        jbv:company         <company16>;
         dc:type             "Full-time";
         jbv:area            "Jakarta";
+        jbv:postDate        "2021-11-12"^^xsd:date;
         dc:description      "BERTUGAS UNTUK MELAKUKAN PENGEMBANGAN PERMODELAN MACHINE LEARNING ATAU ARTIFICIAL INTELLIGENT YANG DIPERLUKAN UNTUK MENJAWAB PERMASALAH YANG INGIN DIPECAHKAN CLIENT";
         dc:requires         "Berpengalaman dalam pekerjaan terkait data scientist minimal 2 tahun";
         dc:requires         "Mempunyai sertifikasi professional data scientist seperti CDSM/CDSP";
@@ -352,12 +507,14 @@
 	dc:requires         "Memiliki sertifikasi atau training data science dari lembaga resmi";
         jbv:image           "https://image-service-cdn.seek.com.au/9cddb5acee7ee489ccd2e3cf0163ffc1e7fd120c/a868bcb8fbb284f4e8301904535744d488ea93c1".
 
-<job19> rdf:type            rdfs:Class;
+<job18> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Data Analyst/ Data Scientist";
-        jbv:company         "ABeam Consulting Indonesia";
+        jbv:company         <company17>;
         dc:type             "Full-time";
         jbv:area            "Jakarta Raya";
+        jbv:salary          "IDR 7.000.000 - IDR 9.000.000";
+        jbv:postDate        "2021-11-18"^^xsd:date;
         dc:description      "Define business issues with client and propose analytics subject to solve them.";
         dc:description      "Extract data from several data sources with scratch SQL queries and cleanse the data from the statistical perspective.";
         dc:description      "Analyze data and summarize insight into intelligible document and share it to client management and users..";
@@ -373,12 +530,14 @@
 	dc:requires         "Strong quantitative skills and statistical knowledge.";
         jbv:image           "https://image-service-cdn.seek.com.au/fa2411ba0861c9a3ffdef042743d7a7f8837477a/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
 
-<job20> rdf:type            rdfs:Class;
+<job19> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "Data Scientist Analyst";
-        jbv:company         "PT Main Games Indonesia (Jakarta)";
+        jbv:salary          "IDR 8.000.000 - IDR 9.500.000";
+        jbv:company         <company18>;
         dc:type             "Full-time";
         jbv:area            "Jakarta Selatan";
+        jbv:postDate        "2021-11-17"^^xsd:date;
         dc:description      "Mine and analyze data from company databases to drive optimization and improvement of product development, marketing techniques and business strategies.";
         dc:description      "Assess the effectiveness and accuracy of new data sources and data gathering techniques.";
         dc:description      "Develop custom data models and algorithms to apply to data sets";
@@ -397,12 +556,14 @@
         dc:requires         "Adaptable with dynamic work environment";
         jbv:image           "https://image-service-cdn.seek.com.au/2224af0eb28c28ed2207dbac5f192ee139da8a49/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
 
-<job21> rdf:type            rdfs:Class;
+<job20> rdf:type            rdfs:Class;
         rdfs:subClassOf     <job_vacancy>;
         dc:title            "AI Specialist (Machine Learning Engineer)";
-        jbv:company         "Yayasan AidHub Indonesia";
+        jbv:company         <company15>;
         dc:type             "Full-time";
         jbv:area            "Badung";
+        jbv:salary          "IDR 8.000.000 - IDR 11.000.000";
+        jbv:postDate        "2021-11-20"^^xsd:date;
         dc:description      "Responsible for building and deploying new AI solutions to improve various business outcomes and drive innovation.";
         dc:description      "Helping our AI strategy and define the problems we are solving with AI..";
         dc:description      "Contribute on our AI development and work in building AI models and putting them into production. .";
@@ -431,7 +592,3 @@
         dc:requires         "Strong motivation and ability to learn new languages programming and technologies.";
         dc:requires         "Ability to teach, explain and simplify AI concepts and logic..";
         jbv:image           "https://image-service-cdn.seek.com.au/9b692f209622949279e729a0faf85c537e22289b/ee4dce1061f3f616224767ad58cb2fc751b8d2dc".
-
-
-
-
