@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/" 
+         xmlns:ilk="http://fakeurl.com/ilmukomputer/1.0/">
+
+ <rdf:Description rdf:about="https://ilkom.unnes.ac.id/">
+        <dc:title>Jurusan Ilmu Komputer UNNES</dc:title>
+        <dc:description>Jurusan Ilmu Komputer di Universitas Negeri Semarang didirikan pada tahun 2012 berdasarkan pada keputusan 
+        Menteri Pendidikan dan Kebudayaan Republik Indonesia Nomor 271/E/O/2012 tanggal 16 Agustus 2012 tentang Penyelenggaraan 
+        Program Studi Teknik Informatika jenjang Program Sarjana (S1) di Universitas Negeri Semarang. Jurusan mempunyai satu program studi (prodi) 
+        yaitu Prodi Teknik Informatika (S1) dengan gelar Sarjana Komputer (S.Kom). Lulusan Jurusan Ilmu Komputer diharapkan memiliki integritas tinggi 
+        di bidang Ilmu Komputer, didukung oleh kemampuan berbahasa Inggris dan penguasaan teknologi informatika, bersikap terbuka, cerdas, terampil, 
+        dan tanggap terhadap perubahan dan kemajuan ilmu pengetahuan dan permasalahan yang dihadapi masyarakat, khususnya yang berkaitan 
+        dengan bidang keahliannya. Prodi Teknik Informatika menerima mahasiswa dari berbagai daerah dengan ketetatan yang cukup tinggi. 
+        Lewat jalur SPMU (Seleksi Penerimaan Mahasiswa Unnes) dihasilkan intake mahasiswa yang berkualitas.</dc:description>
+        <ilk:vision>Menjadikan Program Studi yang kompetitif, unggul, dan berteknologi (Komputek) pada tahun 2025.</ilk:vision>
+        <ilk:address>Gedung D5 Lantai 2 Fakultas Matematika dan IPA, Universitas Negeri Semarang</ilk:address>
+        <ilk:telp>(024) 8508028</ilk:telp>
+        <ilk:email>ilkom@mail.unnes.ac.id</ilk:email>
+        <ilk:program>Teknik Informatika</ilk:program>
+        <ilk:program>Sistem Informasi</ilk:program>
+</rdf:Description>
+</rdf:RDF>
+
+

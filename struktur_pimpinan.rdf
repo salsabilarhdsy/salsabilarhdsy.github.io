@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/" 
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:ilk="http://fakeurl.com/ilmukomputer/1.0/">
+
+<rdf:Description rdf:about="https://ilkom.unnes.ac.id/page/pimpinan-jurusan"/>
+
+<rdf:Description rdf:about="http://staff.unnes.ac.id/dosen/alamsyah.html">
+    <rdfs:subclassOf rdf:resource="https://ilkom.unnes.ac.id/page/pimpinan-jurusan" />
+    <dc:title>Ketua Jurusan</dc:title>
+    <foaf:name>Dr. Alamsyah S. Si., M. Kom.</foaf:name>
+    <ilk:identifier>197405172006041001</ilk:identifier>
+    <dc:image>https://simpeg.unnes.ac.id/index.php/simpeg_portofolio/load_photo/132320168</dc:image>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://staff.unnes.ac.id/dosen/riza-arifudin.html">
+    <rdfs:subclassOf rdf:resource="https://ilkom.unnes.ac.id/page/pimpinan-jurusan" />
+    <dc:title>Sekretaris Jurusan</dc:title>
+    <foaf:name>Riza Arifudin S. Pd., M. Cs.</foaf:name>
+    <ilk:identifier>198005252005011001</ilk:identifier>
+    <dc:image>https://simpeg.unnes.ac.id/index.php/simpeg_portofolio/load_photo/132308204</dc:image>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://staff.unnes.ac.id/dosen/endang-sugiharti.html">
+    <rdfs:subclassOf rdf:resource="https://ilkom.unnes.ac.id/page/pimpinan-jurusan" />
+    <dc:title>Ketua Prodi Sistem Informasi</dc:title>
+    <foaf:name>Endang Sugiharti S. Si., M. Kom.</foaf:name>
+    <ilk:identifier>197401071999032001</ilk:identifier>
+    <dc:image>https://simpeg.unnes.ac.id/index.php/simpeg_portofolio/load_photo/132231407</dc:image>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://staff.unnes.ac.id/dosen/budi-prasetiyo.html">
+    <rdfs:subclassOf rdf:resource="https://ilkom.unnes.ac.id/page/pimpinan-jurusan" />
+    <dc:title>Kepala Laboratorium</dc:title>
+    <foaf:name>Budi Prasetiyo S. Si., M. Kom.</foaf:name>
+    <ilk:identifier>198805012014041001</ilk:identifier>
+    <dc:image>https://simpeg.unnes.ac.id/index.php/simpeg_portofolio/load_photo/198805012014041001</dc:image>
+</rdf:Description>
+</rdf:RDF>
